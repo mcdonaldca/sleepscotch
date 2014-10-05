@@ -1,4 +1,7 @@
 Sleepscotch::Application.routes.draw do
+
+  get "/receive/:time", to: "sleep#receive", :as => :receive
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

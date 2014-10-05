@@ -1,0 +1,2 @@
+class SleepController < ApplicationController
+end

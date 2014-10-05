@@ -56,4 +56,6 @@ Sleepscotch::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  gem 'rails_12factor', group: :production
 end
